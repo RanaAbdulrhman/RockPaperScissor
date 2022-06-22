@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+    <h1>Let's play Rock, Paper, Scissors!</h1>
+    <p class="subtitle">Play against the computer</p>
+    <div id="round">round = </div>
+    <div class="scores">
+        <div class="score" id="p-score">0</div>
+        <div class="score" id="c-score">0</div>
+    </div>
+        <div class="game">
+            <div class="player area">
+                <img class="icon" id="player-rock" src="./pics/hand-fist-solid.svg">
+                <img class="icon" id="player-paper" src="./pics/hand-solid.svg">
+                <img class="icon" id="player-scissors" src="./pics/hand-peace-solid.svg">
+            </div>
+            <div class = "area">
+                <p class="vs">VS</p>
+            </div>
+            <div class="computer area">
+                <img class="icon" id="computer-rock" src="./pics/hand-fist-solid.svg">
+                <img class="icon" id="computer-paper" src="./pics/hand-solid.svg">
+                <img class="icon" id="computer-scissors" src="./pics/hand-peace-solid.svg">
+            </div>
+        </div>
+        <div class="interactivity">
+            <div id="winner"></div>
+            <div class="controls">
+                <button class="buttons" id="rock">rock</a>
+                <button class="buttons" id="paper">paper</a>
+                <button class="buttons" id="scissors">scissors</a>
+            </div>
+            <button id="reset-button" onclick="reset()">reset</button>
+        </div>
+    </div> 
+
+    <script src="func.js"></script>
+</body>
+</html>
