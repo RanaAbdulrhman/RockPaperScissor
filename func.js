@@ -107,5 +107,6 @@ function playGame(){
         }
     }))
 }
+ 
 
 playGame();
